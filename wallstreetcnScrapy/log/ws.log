@@ -1,0 +1,833 @@
+2016-04-29 17:27:04 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20100105/c61833421.shtml> (referer: http://news.10jqka.com.cn/)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:09 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20160428/c589706603.shtml> (referer: http://news.10jqka.com.cn/20160428/c589704962.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:13 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160422/5751263.shtml> (referer: http://news.10jqka.com.cn/20160428/c589706632.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:13 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160425/5764218.shtml> (referer: http://news.10jqka.com.cn/20160428/c589706632.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:13 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160427/5788031.shtml> (referer: http://news.10jqka.com.cn/20160428/c589706632.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:14 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20160428/c589706619.shtml> (referer: http://news.10jqka.com.cn/20160429/c589802622.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:21 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160421/5739678.shtml> (referer: http://news.10jqka.com.cn/20160427/c589681503.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:48 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20150828/c581328751.shtml> (referer: http://news.10jqka.com.cn/20160317/c588573874.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:58 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sr/20150713/4762584.shtml> (referer: http://news.10jqka.com.cn/20151229/c586749894.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:27:58 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20160322/c588677583.shtml> (referer: http://news.10jqka.com.cn/20160323/c588693373.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160429/5813285.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160429/5812028.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160425/5764710.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160428/5799934.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160425/5771999.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160416/5711028.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160425/5761546.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160416/5711025.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160425/5761547.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160425/5761557.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160425/5761563.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20160426/c589617136.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:02 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160425/5764065.shtml> (referer: http://news.10jqka.com.cn/20160413/c589202183.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:25 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/20160315/c588506017.shtml> (referer: http://news.10jqka.com.cn/20160330/c588893392.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:33 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20121219/531639220.shtml> (referer: http://news.10jqka.com.cn/20160308/c588398925.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160420/5732326.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160422/5751116.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160420/5732116.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160422/5750941.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160421/5735375.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5807515.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160421/5735381.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5807519.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160422/5743720.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160409/5675956.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160428/5800538.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:35 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160422/5751817.shtml> (referer: http://news.10jqka.com.cn/20151218/c586554016.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160428/5798238.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160428/5797597.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160426/5787845.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160427/5788033.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160425/5772108.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/20160429/5813282.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5809556.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5809561.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5809402.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5809560.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5809562.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
+2016-04-29 17:28:57 [scrapy] ERROR: Spider error processing <GET http://news.10jqka.com.cn/field/sn/20160429/5809404.shtml> (referer: http://news.10jqka.com.cn/20160219/c587934900.shtml)
+Traceback (most recent call last):
+  File "H:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "H:\python27\lib\site-packages\scrapy\spiders\crawl.py", line 67, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "H:\Administrator\Documents\Workspace\python\wallstreetcnScrapy\wallstreetcnScrapy\spiders\jqkaCommentarySpider.py", line 52, in parse_commentary
+    _ = _.extract()[0]
+IndexError: list index out of range
